@@ -4,8 +4,8 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "48459439078"
-global.ownername = "Toxxic Md"
+global.ownernomer = "2349069045504"
+global.ownername = "KakashiCodm Md"
 global.ytname = "Toxxic Md"
 global.socialm = "GitHub: Toxic1239"
 global.location = "Africa, Nigeria, Lagos"
@@ -26,16 +26,16 @@ global.wm = "Toxxic Tech."
 global.link = 'https://whatsapp.com/channel/0029Vaex2BtGU3BRQoeEsl0U'
 
 //custom prefix
-global.prefa = ['','!','.','#','&']
+global.prefa = ['&']
 
 //false=disable and true=enable
 global.autoRecording = false //auto recording
 global.autoTyping = false //auto typing
-global.autorecordtype = true //auto typing + recording
+global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
-global.autobio = true //auto update bio
+global.autobio = false //auto update bio
 global.anti92 = false //auto block +92 
-global.autoswview = true //auto view status/story
+global.autoswview = false //auto view status/story
 
 //menu type 
 //v1 is image menu, 
@@ -55,8 +55,8 @@ global.mess = {
     done: 'Done !',
     prem: 'This Command is for Premium Users \n Leave or Ill kill you',
     admin: 'Fool \n This Command is for My owner only',
-    botAdmin: 'This Feature Can only be used If *Zenon Md* is Admin ',
-    owner: 'This feature can be used by owner only',
+    botAdmin: 'This Feature Can only be used If *Kakashi* is Admin ',
+    owner: 'This feature can be used by KakashiCodm only',
     group: 'This feature is only for groups',
     private: 'This feature is only for private chats',
     wait: 'Task is Being Processed... ',    
