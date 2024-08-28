@@ -24,7 +24,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "33757054414"
+let phoneNumber = "2349069045504"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -156,7 +156,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
         return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')
     }
     
-    XeonBotInc.public = true
+    XeonBotInc.public = false
 
     XeonBotInc.serializeM = (m) => smsg(XeonBotInc, m, store)
 
